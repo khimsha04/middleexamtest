@@ -1,5 +1,4 @@
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import { MDBDropdown, MDBDropdownMenu, MDBDropdownToggle, MDBDropdownItem } from 'mdb-react-ui-kit';
 import '../Dropdown/Firstdropdown.css';
 
 function Fourdropdown() {
@@ -7,16 +6,15 @@ function Fourdropdown() {
   return (
     <div >
       
-        <div className='w-70'>
-          <MDBDropdown className='m-4 '>
-            <MDBDropdownToggle className='drop-1'>All makes</MDBDropdownToggle>
-            <MDBDropdownMenu>
+        <div className='w-70 margin20px'>
+        <select >
+            <option>All makes</option>
+            <option value={'Arctic Cat'}>Arctic Cat</option>
+            <option value={'Can-Am'}>Can-Am </option>
+            <option value={'Honda'}>Honda</option>
+            <option value={'Polaris'}>Polaris</option>
             
-              <MDBDropdownItem link></MDBDropdownItem>
-              <MDBDropdownItem link>Another action</MDBDropdownItem>
-              <MDBDropdownItem link>Something else here</MDBDropdownItem>
-            </MDBDropdownMenu>
-          </MDBDropdown>
+        </select>
         </div>
     </div>
   );
