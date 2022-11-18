@@ -11,7 +11,7 @@ function Fourdropdown() {
           <MDBDropdown className='m-4 '>
             <MDBDropdownToggle className='drop-1'>All makes</MDBDropdownToggle>
             <MDBDropdownMenu>
-            <input type={'text'}></input>
+            
               <MDBDropdownItem link></MDBDropdownItem>
               <MDBDropdownItem link>Another action</MDBDropdownItem>
               <MDBDropdownItem link>Something else here</MDBDropdownItem>

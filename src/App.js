@@ -1,5 +1,4 @@
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-import React from "react";
 import Searchbutton from './Components/Button/Searchbutton';
 import Firstdropdown from './Components/Dropdown/Firstdropdown';
 import Fivedropdown from './Components/Dropdown/Fivedropdown';
@@ -8,6 +7,9 @@ import Seconddropdown from './Components/Dropdown/Seconddropdown';
 import Thirddropdown from './Components/Dropdown/Thriddropdown';
 
 function App() {
+ 
+  
+
     return (
     <div className='drop-class'>
         
@@ -29,11 +31,17 @@ function App() {
         <div>
           <Fivedropdown></Fivedropdown>
         </div>
-        <div>
+        <div className='button'>
           <Searchbutton></Searchbutton>
         </div>
-
-
+        
+    
+ 
+ 
+ 
+       
+                
+       
     </div>
     );
 }
