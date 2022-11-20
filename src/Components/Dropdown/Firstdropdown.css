@@ -9,8 +9,9 @@
   color: #000;
   border: 1px solid #e1e8ee;
   box-shadow: none;
-  width: 230px;
+  width: 228px;
   text-align: left;
+  height: 30px;
 }
 .drop-1:hover
 {
@@ -63,11 +64,12 @@
 
 .drop-2{
   background-color: white;
-  color: #000;
-  border: 1px solid #e1e8ee;
-  box-shadow: none;
-  width: 90px;
-  text-align: left;
+    color: #000;
+    border: 1px solid #e1e8ee;
+    box-shadow: none;
+    width: 100px;
+    text-align: left;
+    height: 30px;
 }
 .drop-2:hover
 {
@@ -103,10 +105,15 @@
   margin-left: -10px;
 }
 .button{
-  display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50px;
+  width: 130px;
+  /* text-align: center; */
+  /* align-items: center; */
+  color: white;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+    
 }
 .margin20px{
   margin: 20px;

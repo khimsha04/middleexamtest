@@ -7,7 +7,7 @@ function Fourdropdown() {
     <div >
       
         <div className='w-70 margin20px'>
-        <select >
+        <select className='drop-1' >
             <option>All makes</option>
             <option value={'Arctic Cat'}>Arctic Cat</option>
             <option value={'Can-Am'}>Can-Am </option>

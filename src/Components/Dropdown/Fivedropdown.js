@@ -9,7 +9,7 @@ function Fivedropdown() {
     <div >
       
         <div className='w-70 margin20px'>
-        <select>
+        <select className='drop-1'>
             <option>All models</option>
             <option value={'other'}>All models</option>
                       

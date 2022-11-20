@@ -31,7 +31,7 @@ function App() {
         <div>
           <Fivedropdown></Fivedropdown>
         </div>
-        <div className='button'>
+        <div >
           <Searchbutton></Searchbutton>
         </div>
         

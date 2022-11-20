@@ -6,8 +6,8 @@ function Firstdropdown() {
   return (
     <div >
       
-        <div   className='w-70 margin20px'>
-        <select >
+        <div   className='w-70 margin20px  '>
+        <select className='drop-1' >
             <option value={'Automobile'}>Automobile</option>
             <option value={'Motorcycle'}>Motorcycle</option>
             <option  value={'ATV'}>ATV</option>

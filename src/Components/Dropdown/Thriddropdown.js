@@ -3,12 +3,15 @@ import '../Dropdown/Firstdropdown.css';
 
 function Thirddropdown() {
 
+
+
+   
   return (
     <div >
       
         <div className='w-70 margin20px'>
-        <select >
-            <option>2000</option>
+        <select className='drop-2' >
+            <option >2000</option>
             <option value={'2015'}>2015</option>            
             <option value={'2016'}>2016</option>
             <option value={'2017'}>2017</option>

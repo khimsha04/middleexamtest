@@ -7,7 +7,7 @@ function Seconddropdown() {
     <div >
       
         <div className='w-70 margin20px'>
-        <select  >
+        <select className='drop-2'  >
             <option>2000</option>
             <option value={'2022'}>2022</option>
             <option  value={'2021'} >2021</option>
