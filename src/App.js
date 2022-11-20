@@ -19,9 +19,7 @@ function App() {
         <div>
           <Seconddropdown></Seconddropdown>
         </div>
-        <div className='line' >
-          <span></span>
-        </div>
+        
         <div className='ss'>
           <Thirddropdown></Thirddropdown>
         </div>
