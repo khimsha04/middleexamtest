@@ -31,7 +31,7 @@ return(
     <ul className='ulClass'>
       <span>Brand:</span>
     {posts.map(post=> (
-      <li key={post.id} > {post.brand}  </li>
+      <li className='margintop' key={post.id} > {post.brand}  </li>
     ))
     }
     </ul>
@@ -40,7 +40,7 @@ return(
     <ul className='ulClass1'>
       <span>Category:</span>
     {posts.map(post=> (
-      <li key={post.id} > {post.category}  </li>
+      <li className='margintop'  key={post.id} > {post.category}  </li>
     ))
     }
     </ul>
@@ -49,7 +49,7 @@ return(
     <ul className='ulClass2'>
       <span>Price:</span>
     {posts.map(post=> (
-      <li key={post.id} >   {post.price} </li>
+      <li className='margintop' key={post.id} >   {post.price} </li>
     ))
     }
     </ul>
@@ -58,7 +58,7 @@ return(
     <ul className='ulClass3'>
       <span>Rating:</span>
     {posts.map(post=> (
-      <li key={post.id} > {post.rating} </li>
+      <li className='margintop' key={post.id} > {post.rating} </li>
     ))
     }
     </ul>
@@ -67,7 +67,7 @@ return(
     <ul className='ulClass4'>
       <span>Title:</span>
     {posts.map(post=> (
-      <li key={post.id} > {post.title} </li>
+      <li className='margintop' key={post.id} > {post.title} </li>
     ))
     }
     </ul>
